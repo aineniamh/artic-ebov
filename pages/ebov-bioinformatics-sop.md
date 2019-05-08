@@ -142,3 +142,18 @@ Replace ``samplename`` as appropriate:
    * ``samplename.variants.tab`` - detected variants
    * ``samplename.consensus.fasta`` - consensus sequence
 
+## Snakemake implementation
+
+To run the analysis using snakemake, you may need to customise the ``config.yaml`` file. 
+
+Ensure ```path_to_fast5``` and ```path_to_fastq``` point to where your data is. Ensure you have your primer scheme in a directory system such as ``primer-schemes/EBOV/V1``, as is required for running the ```artic minion``` pipeline above. 
+
+To start the pipeline, in a terminal window in the artic-ebov directory, simply enter:
+
+```snakemake```
+
+If you wish to run using more than one core, enter:
+
+```snakemake --cores X```
+
+where X is the number of threads you wish to run.

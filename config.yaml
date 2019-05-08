@@ -1,0 +1,21 @@
+run_name: ebov_minion_run
+path_to_fast5: ../data/fast5/pass
+path_to_fastq: ../data/fastq/pass
+min_length: 400
+max_length: 1000
+primer_scheme_dir: "primer-schemes"
+primer_scheme_version: "ZaireEbola/V2"
+barcodes:
+    BC01: BC01
+    BC02: BC02
+    BC03: BC03
+    BC04: BC04
+    BC05: BC05
+    BC06: BC06
+    BC07: BC07
+    BC08: BC08
+    BC09: BC09
+    BC10: BC10
+    BC11: BC11
+    BC12: BC12
+    
